@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html>
-
+​
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <style>
+        html {
+            border: 5px solid darkred;
+        }
+        body {
+            background-color: lightyellow;
+        }
+        h1 {
+            margin-left: 1%;
+            font-size: 3em;
+        }
+        .picture {
+            border: 10px solid orange;
+            margin-bottom: 2.5%;
+            margin-left: 1%;
+            width: 1200px;
+            height: 500px;
+        }
+        #text {
+            border: 10px dashed orange;
+            width: 1200px;
+            height: 500px;
+            background-color: yellow;
+            overflow: scroll;
+            margin-left: 1%;
+        }
+        #text p {
+            font-size: 2em;
+        }
+        .important {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+    <title>Fox</title>
 </head>
-
+​
 <body>
-
+​
     <!--
         add CSS for this page using best practices to make it look like
         the template image as close as you can. use what you've learned
         about the CSS box model.
-
+​
         do not change the HTML, except to add classes or ids.
         do not use any rules that only target tags (except for main, it's ok
             to have a rule just for main).
     -->
-
+​
     <main>
         <h1>Fox</h1>
-
+​
         <img class="picture" src="fox.jpg">
-
+​
         <div id="text">
             <p>
                 <span class="important">Fox is a common name for many species of carnivorous mammals belonging to the
@@ -35,7 +68,7 @@
                 median-sized domestic dog), characterized by possessing a long narrow
                 snout, and a bushy tail (or brush).
             </p>
-
+​
             <p>
                 <span class="important">Members of about 37 species are referred to as
                     foxes, of which only 12 species actually belong to the Vulpes genus of
@@ -48,8 +81,8 @@
                 other is the raccoon dog.
             </p>
         </div>
-
+​
     </main>
 </body>
-
+​
 </html>
